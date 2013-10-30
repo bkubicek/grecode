@@ -630,6 +630,7 @@ void GDecoder::outputGnuplot(ostream &out)
 
 void  GDecoder::shift(float dx,float dy)
 {
+	//cerr<<"Shifting:"<<dx<<" "<<dy<<endl;
 	float units=1;
 	bool moveAbsolute=true;
 	for(int i=0;i<wd.size();i++)

@@ -220,8 +220,8 @@ void processParameters(int argc, char** argv)
 				cerr<<"ERROR: y shift required for shifting operations"<<endl;
 				exit(1);
 			}
-			ss.clear();
-			ss>>ys;
+			stringstream ss2(argv[i]);
+			ss2>>ys;
 			setmatrix(m,s, 1,0,0,1, xs, ys);
 		}
 		else
@@ -572,7 +572,6 @@ int main(int argc, char** argv)
 
 	 }
 
-	 
 	 switch(op)
 	 {
 		  case xflip: gd.scale(-1,1);break;
