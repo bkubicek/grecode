@@ -1,0 +1,22 @@
+;###############
+; possible total bounding box: x in -5.00000 1.00000  y in 0.00000 2.00000
+; possible cutting bounding box: x in 100000.00000 -5.00000  y in 100000.00000 2.00000
+; comment line
+M1 
+M1 ; comment line
+M1 ; comment line
+M1 (bla)M5 
+M1 (bla)M5 
+M1 (bla)M5 
+G0 X-1  Y2 Z1 
+G0 X-1  Y2 Z1.111 
+G0 X-1  Y2 Z3 
+G0 X[-#0]  Y#1 Z#2 
+G0 X[-#0]  Y#1 Z#2 
+G0 X[-[1+1]]  Y#1 Z#2 
+G0 X[-[1+2]]  Y#0 Z#0 
+G1 X5  Y2 Z-1 
+M5 
+G91 
+
+;###############
