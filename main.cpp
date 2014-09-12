@@ -394,7 +394,7 @@ void processParameters(int argc, char** argv)
 			 aligny=align_min;
 			else if(string(argv[i])=="max")
 			 aligny=align_max;
-			else if(string(argv[i])=="center")
+			else if(string(argv[i])=="middle")
 			 aligny=align_middle;
 			else if(string(argv[i])=="cmin")
 			 aligny=align_cmin;
