@@ -1241,7 +1241,7 @@ void GDecoder::knive(float knivedelay)
 	bool moveAbsolute=true;
   float units=1;
   float dir[2]={0,0};
-  int lastbreak,lastxmove=0,lastymove=0;
+  int lastbreak=0,lastxmove=0,lastymove=0;
   for(int i=0;i<wd.size();i++)
   {
 		struct Word &w=wd[i];
