@@ -34,7 +34,7 @@ Operations:
     -parameterize minoccurence variablesStartnumber
         This will scan for re-occuring values in X, Y and Z words. If the occure more often than minoccurence, they will be substituted by variables. Their numbers are starting from the specified number 
     -overlay XPointA YPointA XPointB YPointB XNewPointA YNewPointA XNewPointB YNewPointB
-        This will shift and rotate the the gcode so that PointA and PointB move to the new locations. Distance mismatches beweeen A-B and newA-newB are compensated. 
+        This will shift and rotate the gcode so that PointA and PointB move to the new locations. Distance mismatches beweeen A-B and newA-newB are compensated. 
     -knive <delay mm>
         This should compensate partially for foil cutters, where the cutting point is lagging. The lagging distance should be specified in mm. Arc movements could be problematic currently. The implementation is not very good. 
     -copies amountOfCopiesX amountOfCopiesY shiftx shifty
